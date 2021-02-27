@@ -1,15 +1,12 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.css";
 import React from 'react';
-import Jumbotron from './Components/Jumbotron.jsx';
 import Card from './Components/Card.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'react-bootstrap/navbar';
-import Nav from 'react-bootstrap/nav';
-import Button from 'react-bootstrap/button';
+import {Button, Nav, Navbar, Jumbotron} from 'react-bootstrap';
 
 function App() {
   return (
